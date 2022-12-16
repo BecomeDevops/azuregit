@@ -6,3 +6,11 @@ Git add .
 Git commit -m "azure"
 
 Git push
+
+FROM : ubuntu
+
+MAINTAINER ondemandlabs
+
+LANGUAGE python 
+
+COPY . /share/vst/downloads/nginx
